@@ -19,3 +19,11 @@ This demo shows how to use BPF to block an application from running if it is bui
 2.  Build the binary with Witness `./cr 2`
 3.  Sign the policy `./cr 3`
 4.  Verify the policy `./cr 4`
+
+base64 encoded policy
+```
+package trace_demo
+deny[msg] {
+  input.processes[_].programdigest.sha256 == "79d0e4e547e8457d03d6c4a3f139799af5bb022659eae67e69adf04d4c61e5e5"
+  msg := "found a unauthorized process"
+```
