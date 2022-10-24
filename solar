@@ -14,7 +14,7 @@ function 02solar() {
 
 function 03build() {
     echo "Building with witness and BPF"
-    ./witness run -l=debug --step build -o test-att.json --tetragon-address localhost:54321 -k demo-key.pem -- go build .
+    ./witness run -l=debug --step build -o test-att.json --watch-prefix=${PWD} --tetragon-address localhost:54321 -k demo-key.pem -- go build -o hacked .
 }
 
 function 04show() {

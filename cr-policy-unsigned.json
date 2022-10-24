@@ -7,11 +7,7 @@
         {
             "type": "https://witness.dev/attestations/command-run/v0.2",
             "regoPolicies": [
-              {
-                "name": "Un-authorized compiler",
-                "module": "cGFja2FnZSB0cmFjZV9kZW1vCmRlbnlbbXNnXSB7CiAgaW5wdXQucHJvY2Vzc2VzW19dLnByb2dyYW1kaWdlc3Quc2hhMjU2ID09ICI3OWQwZTRlNTQ3ZTg0NTdkMDNkNmM0YTNmMTM5Nzk5YWY1YmIwMjI2NTllYWU2N2U2OWFkZjA0ZDRjNjFlNWU1IgogIG1zZyA6PSAiZm91bmQgYSB1bmF1dGhvcml6ZWQgcHJvY2VzcyI="
-              }
-            ]
+                         ]
         }
       ],
       "functionaries": [
