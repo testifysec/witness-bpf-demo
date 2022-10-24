@@ -1,0 +1,30 @@
+{
+  "expires": "2023-12-17T23:57:40-05:00",
+  "steps": {
+    "build": {
+      "name": "build",
+      "attestations" : [
+        {
+            "type": "https://witness.dev/attestations/command-run/v0.2",
+            "regoPolicies": [
+              {
+                "name": "Un-authorized compiler",
+                "module": "cGFja2FnZSB0cmFjZV9kZW1vCmRlbnlbbXNnXSB7CiAgaW5wdXQucHJvY2Vzc2VzW19dLnByb2dyYW1kaWdlc3Quc2hhMjU2ID09ICI3OWQwZTRlNTQ3ZTg0NTdkMDNkNmM0YTNmMTM5Nzk5YWY1YmIwMjI2NTllYWU2N2U2OWFkZjA0ZDRjNjFlNWU1IgogIG1zZyA6PSAiZm91bmQgYSB1bmF1dGhvcml6ZWQgcHJvY2VzcyI="
+              }
+            ]
+        }
+      ],
+      "functionaries": [
+        {
+          "publickeyid": "5eb7947a31d772df1fc2b154511fe2459d8108d0a71c71793affd2faf9ab31cf"
+        }
+      ]
+    }
+  },
+  "publickeys": {
+    "5eb7947a31d772df1fc2b154511fe2459d8108d0a71c71793affd2faf9ab31cf": {
+      "keyid": "5eb7947a31d772df1fc2b154511fe2459d8108d0a71c71793affd2faf9ab31cf",
+      "key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUNvd0JRWURLMlZ3QXlFQUV5Tm0ycjcrMUZKdHJDTCtDem9yb1dkTVJON3pwLzlDMkIvVmxYQlljRWc9Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo="
+    }
+  }
+}
